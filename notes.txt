@@ -1,0 +1,7 @@
+--COMMANDS--
+Create project in current directory: mkdr app-name
+
+Open file in new window: code test-driven-palindromes
+Start code in current window: code -r test-driven-palindromes
+
+Create package.json with defaults: npm init -y
