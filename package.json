@@ -3,11 +3,21 @@
   "private": true,
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "palindromes.js",
   "scripts": {
-    "test": "jest"
+    "test": "test"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overgrownFudge/test-driven-palindromes.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/overgrownFudge/test-driven-palindromes/issues"
+  },
+  "homepage": "https://github.com/overgrownFudge/test-driven-palindromes#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
 }
