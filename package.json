@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/overgrownFudge/test-driven-palindromes#readme",
   "devDependencies": {
-    "eslint": "^5.10.0"
+    "eslint": "^5.10.0",
+    "eslint-plugin-jest": "^22.1.2"
   }
 }
