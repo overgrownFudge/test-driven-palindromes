@@ -5,3 +5,22 @@ Open file in new window: code test-driven-palindromes
 Start code in current window: code -r test-driven-palindromes
 
 Create package.json with defaults: npm init -y
+
+Install ESlint: npm install --save-dev eslint@5.10.0
+
+Running ESlint: npx eslint palindromes.js
+
+Install ESlint Jest plugin: npm install --save-dev eslint-plugin-jest@22.1.2
+
+
+describe('palindromes()', () => {
+    it('correctly identifies one-word palindromes', () => {
+        expect(palindromes('madam')).toEqual(['madam']) //1
+    })
+})
+
+1. Previously, we’ve made equality assertions with toBe(). 
+However, toBe() does a strict equality check, which would fail here. 
+The toEqual() assertion method, by contrast, checks for deep object equality. 
+So the assertion expect(x).toEqual(['madam']) passes as long as x is an array 
+with the string "madam" as its only entry.
