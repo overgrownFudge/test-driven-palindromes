@@ -5,7 +5,9 @@
   "description": "",
   "main": "palindromes.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "lint": "eslint . && prettier-eslint --list-different **/*.js",
+    "format": "prettier-eslint --write **/*.js"
   },
   "repository": {
     "type": "git",
