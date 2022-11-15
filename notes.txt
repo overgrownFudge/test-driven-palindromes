@@ -12,6 +12,9 @@ Running ESlint: npx eslint palindromes.js
 
 Install ESlint Jest plugin: npm install --save-dev eslint-plugin-jest@22.1.2
 
+Install prettier with Eslint config: npm install --save-dev prettier-eslint-cli@4.7.1
+
+Running prettier-eslint on test file: npx prettier-eslint tests/palindromes.test.js
 
 describe('palindromes()', () => {
     it('correctly identifies one-word palindromes', () => {
